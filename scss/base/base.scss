@@ -27,19 +27,20 @@ Base Styles
 ***************************/
 body {
   color: #414042;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  // height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 h1,
 h2,
-h3 {
-  font-weight: bold;
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 a {
-  color: #FFD8AA;
+  color: #ffd8aa;
   font-weight: bold;
 }
 
