@@ -4,46 +4,52 @@ Hero Modules
 
 Hero Modules ***************************/
 .hero {
-    text-align: center;
-    width: 100%;
+	text-align: center;
+	width: 100%;
 }
 
 .hero-primary {
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-    @include medium-and-above {}
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-.hero-primary>img {
-    width: 75%;
+.hero-primary > img {
+	width: 75%;
 }
 
 .counter {
-    font-weight: 700;
+	font-weight: 700;
 
-    img {
-        float: left;
-    }
+	img {
+		float: left;
+		width: 20%;
+	}
 }
 
 .counter-primary {
-    font-size: 4rem;
+	font-size: 4rem;
 
-    @include medium-and-above {
-        font-size: 6rem;
-    }
+	@include medium-and-above {
+		font-size: 6rem;
+	}
 }
 
 .counter-secondary {
-    font-size: 3.5rem;
+	font-size: 3.5rem;
 
-    @include medium-and-above {
-        font-size: 6rem;
-    }
+	@include medium-and-above {
+		font-size: 6rem;
+	}
 }
 
 .hero-col {
-    display: inline-block;
-    margin-bottom: 5rem;
+	display: inline-block;
+	margin-bottom: 6rem;
+}
+
+.section-hero {
+	margin-top: 2rem;
+	@include medium-and-above {
+		margin-top: 3rem;
+	}
 }

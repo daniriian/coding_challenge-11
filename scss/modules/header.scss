@@ -2,39 +2,37 @@
 Header
 ***************************/
 
-
 .header-text {
-    width: 80%;
-    margin: 0 auto;
+	width: 80%;
+	margin: 0 auto;
 
-    h1 {
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
+	h1 {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
 
-    @include medium-and-above {
-        h1 {
-            font-size: 3rem;
-            line-height: 3.5rem;
-        }
-
-        .paragraph {
-            width: 55%;
-            margin: 40px auto;
-            font-size: 1.2rem;
-            line-height: 1.8rem;
-        }
-    }
+	@include medium-and-above {
+		h1 {
+			font-size: 3rem;
+			line-height: 3.5rem;
+		}
+	}
 }
 
 .paragraph {
-    line-height: 1.3rem;
+	line-height: 1.3rem;
+	@include medium-and-above {
+		width: 55%;
+		margin: 40px auto;
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+	}
 }
 
 .paragraph-primary {
-    font-size: 0.8rem;
+	font-size: 0.8rem;
 }
 
 .paragraph-secondary {
-    font-size: 1rem;
+	font-size: 1rem;
 }
