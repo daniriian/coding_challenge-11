@@ -1,32 +1,19 @@
-// /***************************
-// Logo Modules
-// ***************************/
+/***************************
+Logo Modules
+***************************/
 
-// .logo {
-//     overflow: hidden;
-//     display: inline-block;
-// }
+.logo {
+    display: inline-block;
+    line-height: 35px;
+}
 
-// .logo-primary {
-//     width: 64px;
-//     height: 64px;
 
-//     @include small-and-above {
-//         width: auto;
-//         height: 100px;
-//         float: left;
-//     }
-// }
 
-// .logo-primary img {
-//     height: 100%;
-// }
+.logo img {
+    height: 18px;
 
-// .logo-frame {
-//     overflow: hidden;
-//     border-radius: 32px;
-
-//     @include small-and-above {
-//         border-radius: 50px;
-//     }
-// }
+    @include medium-and-above {
+        height: 35px;
+        padding-left: 50px;
+    }
+}

@@ -1,22 +1,40 @@
-// /***************************
-// Header
-// ***************************/
-// .header-primary {
-//     background: #B3844D;
-//     text-align: left;
-//     padding-top: 10px;
-//     padding-bottom: 10px;
+/***************************
+Header
+***************************/
 
-//     @include small-and-above {
-//         background: none;
-//         position: absolute;
-//         z-index: 99;
-//         width: 100%;
 
-//         &:after {
-//             content: "";
-//             display: table;
-//             clear: both;
-//         }
-//     }
-// }
+.header-text {
+    width: 80%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @include medium-and-above {
+        h1 {
+            font-size: 3rem;
+            line-height: 3.5rem;
+        }
+
+        .paragraph {
+            width: 55%;
+            margin: 40px auto;
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+        }
+    }
+}
+
+.paragraph {
+    line-height: 1.3rem;
+}
+
+.paragraph-primary {
+    font-size: 0.8rem;
+}
+
+.paragraph-secondary {
+    font-size: 1rem;
+}

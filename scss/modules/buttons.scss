@@ -1,34 +1,60 @@
-// /***************************
-// Button Modules
-// ***************************/
+/***************************
+Button Modules
+***************************/
 
-// .btn {
-//     display: inline-block;
-//     text-align: center;
-//     white-space: nowrap;
-//     vertical-align: middle;
-//     background-image: none;
-//     border: 1px solid transparent;
-//     cursor: pointer;
-//     padding: 12px 30px;
-//     font-size: 1.313em;
-//     font-weight: bold;
-//     border-radius: 4px;
-//     text-decoration: none;
-//     transition: all 0.3s ease 0s;
-// }
+.btn {
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 4px 16px;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+    outline: none;
 
-// .btn-primary {
-//     background: #553B1C;
-//     color: #FFD8AA;
-//     border-color: #553B1C;
-// }
+    @include medium-and-above {
+        font-size: 1rem;
+        padding: 8px 25px;
 
-// .btn-primary:hover {
-//     background: none;
-//     border-color: #FFD8AA;
-// }
+    }
+}
 
-// .btn-nav {
-//     color: #FFD8AA;
-// }
+.btn-primary {
+    background: none;
+    color: $Pink;
+    border-color: $Pink;
+    float: right;
+
+    @include medium-and-above {
+        margin-right: 30px;
+    }
+}
+
+.btn-primary:hover {
+    background: $Pink;
+    color: white;
+}
+
+.btn-secondary {
+    background: $Pink;
+    color: white;
+    padding: 10px 40px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 2rem;
+
+    @include medium-and-above {
+        padding: 2.5% 10%;
+        font-size: 1.25rem;
+    }
+}
+
+.btn-secondary:hover {
+    background: none;
+    color: $Pink;
+    border-color: $Pink;
+}

@@ -9,7 +9,7 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1170px;
+  max-width: 1410px;
 }
 
 /* Row */
@@ -62,4 +62,21 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+
+.align-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bb {
+  border: 1px solid blue;
+}
+
+.br {
+  border: 1px solid red;
+}
+
+.bg {
+  border: 1px solid green;
 }
