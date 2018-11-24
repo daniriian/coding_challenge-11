@@ -8,47 +8,82 @@
 	}
 
 	height: auto;
-	border: 1px solid transparent;
+	min-height: 400px;
+	// padding-top: 110px;
+
 	@include extra-large {
 		background-size: 1680px;
 	}
 }
 
-.gt-img {
-	height: 400px;
-	// width: auto;
-	background: url("/images/illustration-grow-together.svg") center center no-repeat;
-	background-size: contain;
+.motto {
+	display: flex;
+	flex-direction: column;
+
+	@include medium-and-above {
+		flex-direction: row;
+	}
 }
 
-.motto {
+.motto-image {
+	margin-top: 110px;
+	background-color: $VeryPaleBlue;
 	height: 200px;
-	text-align: center;
-	@include medium-and-above {
-		text-align: left;
-		margin: 80px auto;
-		padding: 0 5%;
+
+	// @include small-and-above {
+	// 	margin-top: 165px;
+	// }
+	img {
+		height: 100%;
 	}
+	@include small-and-above {
+		height: 350px;
+		margin-top: 164px;
+	}
+	@include medium-and-above {
+		width: 50%;
+	}
+}
+
+.text {
+	height: 200px;
+	background-color: $VeryPaleBlue;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 7%;
 	h2 {
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-		@include medium-and-above {
-			text-align: left;
+		padding: 2rem 0;
+	}
+	p {
+		line-height: 1.5rem;
+	}
+
+	@include small-and-above {
+		margin-bottom: 138px;
+	}
+
+	@include medium-and-above {
+		width: 50%;
+		order: -1;
+		height: 350px;
+		margin-top: 164px;
+		text-align: left;
+		align-items: flex-start;
+		font-weight: 600;
+
+		h2 {
+			font-size: 2rem;
+			font-weight: 700;
 		}
 	}
 }
 
-.motto-paragraph {
-	font-size: 0.9rem;
-	line-height: 1.3rem;
-}
-
-.bg-color-fill {
-	background-color: $VeryPaleBlue;
-}
-
-.inner {
-	height: 400px;
-	margin-top: 112px;
-	margin-bottom: 52px;
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
