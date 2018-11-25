@@ -9,6 +9,8 @@ Header
 	h1 {
 		font-size: 1.5rem;
 		line-height: 2rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 
 	@include medium-and-above {

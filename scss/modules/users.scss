@@ -1,0 +1,29 @@
+/***************************
+Media Modules
+***************************/
+
+.users {
+	background: url("/images/bg-section-top-mobile-2.svg") top no-repeat,
+		url("/images/bg-section-bottom-mobile-2.svg") bottom no-repeat;
+
+	@include small-and-above {
+		background: url("/images/bg-section-top-desktop-2.svg") top no-repeat,
+			url("/images/bg-section-bottom-desktop-2.svg") bottom no-repeat;
+	}
+
+	@include extra-large {
+		background-size: 1680px;
+	}
+
+	.motto-image {
+		margin-top: 100px;
+		@include medium-and-above {
+			margin-top: 156px;
+		}
+	}
+	.text {
+		@include medium-and-above {
+			margin-top: 156px;
+		}
+	}
+}

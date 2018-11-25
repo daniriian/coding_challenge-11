@@ -7,8 +7,8 @@
 			url("/images/bg-section-bottom-desktop-1.svg") bottom no-repeat;
 	}
 
-	height: auto;
-	min-height: 400px;
+	// height: auto;
+	// min-height: 400px;
 	// padding-top: 110px;
 
 	@include extra-large {
@@ -30,11 +30,9 @@
 	background-color: $VeryPaleBlue;
 	height: 200px;
 
-	// @include small-and-above {
-	// 	margin-top: 165px;
-	// }
 	img {
-		height: 100%;
+		max-width: 100%;
+		max-height: 100%;
 	}
 	@include small-and-above {
 		height: 350px;
@@ -73,7 +71,7 @@
 		margin-top: 164px;
 		text-align: left;
 		align-items: flex-start;
-		font-weight: 600;
+		// font-weight: 600;
 
 		h2 {
 			font-size: 2rem;

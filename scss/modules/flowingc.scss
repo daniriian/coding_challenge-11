@@ -1,0 +1,12 @@
+.flowing-conversations {
+	.motto-image {
+		background: none;
+	}
+
+	.text {
+		background: none;
+		@include medium-and-above {
+			order: 2;
+		}
+	}
+}
