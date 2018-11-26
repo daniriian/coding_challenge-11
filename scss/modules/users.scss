@@ -12,18 +12,27 @@ Media Modules
 	}
 
 	@include extra-large {
-		background-size: 1680px;
+		background-size: 1920px;
 	}
 
 	.motto-image {
 		margin-top: 100px;
+
 		@include medium-and-above {
 			margin-top: 156px;
 		}
 	}
+
 	.text {
+		margin-bottom: 100px;
+
 		@include medium-and-above {
 			margin-top: 156px;
+			margin-bottom: 138px;
+		}
+
+		@include extra-large {
+			margin-bottom: 168px;
 		}
 	}
 }

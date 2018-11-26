@@ -58,3 +58,23 @@ Button Modules
     color: $Pink;
     border-color: $Pink;
 }
+
+.btn-ternary {
+    border-radius: 5px;
+    margin-left: auto;
+    background: $Pink;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 60%;
+
+    @include medium-and-above {
+        width: 35%;
+    }
+}
+
+.btn-ternary:hover {
+    background: none;
+    color: $Pink;
+    border-color: $Pink;
+}

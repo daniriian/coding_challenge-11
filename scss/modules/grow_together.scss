@@ -12,7 +12,7 @@
 	// padding-top: 110px;
 
 	@include extra-large {
-		background-size: 1680px;
+		background-size: 1920px;
 	}
 }
 
@@ -34,10 +34,12 @@
 		max-width: 100%;
 		max-height: 100%;
 	}
+
 	@include small-and-above {
 		height: 350px;
 		margin-top: 164px;
 	}
+
 	@include medium-and-above {
 		width: 50%;
 	}
@@ -53,9 +55,11 @@
 	align-items: center;
 	text-align: center;
 	padding: 0 7%;
+
 	h2 {
 		padding: 2rem 0;
 	}
+
 	p {
 		line-height: 1.5rem;
 	}
