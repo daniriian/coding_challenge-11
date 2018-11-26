@@ -3,78 +3,77 @@ Button Modules
 ***************************/
 
 .btn {
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    background-image: none;
-    border: 1px solid transparent;
-    cursor: pointer;
-    padding: 4px 16px;
-    font-size: 0.9rem;
-    border-radius: 50px;
-    text-decoration: none;
-    transition: all 0.2s ease 0s;
-    outline: none;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-image: none;
+	border: 1px solid transparent;
+	cursor: pointer;
+	padding: 4px 16px;
+	font-size: 0.9rem;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: all 0.2s ease 0s;
+	outline: none;
 
-    @include medium-and-above {
-        font-size: 1rem;
-        padding: 8px 25px;
-
-    }
+	@include medium-and-above {
+		font-size: 1rem;
+		padding: 8px 25px;
+	}
 }
 
 .btn-primary {
-    background: none;
-    color: $Pink;
-    border-color: $Pink;
-    float: right;
+	background: none;
+	color: $Pink;
+	border-color: $Pink;
+	float: right;
 
-    @include medium-and-above {
-        margin-right: 30px;
-    }
+	@include medium-and-above {
+		margin-right: 30px;
+	}
 }
 
 .btn-primary:hover {
-    background: $Pink;
-    color: white;
+	background: $Pink;
+	color: white;
 }
 
 .btn-secondary {
-    background: $Pink;
-    color: white;
-    padding: 10px 40px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    margin-top: 2rem;
+	background: $Pink;
+	color: white;
+	padding: 10px 40px;
+	font-size: 0.75rem;
+	font-weight: 600;
+	margin-top: 4rem;
 
-    @include medium-and-above {
-        padding: 2.5% 10%;
-        font-size: 1.25rem;
-    }
+	@include medium-and-above {
+		padding: 2.5% 10%;
+		font-size: 1.25rem;
+	}
 }
 
 .btn-secondary:hover {
-    background: none;
-    color: $Pink;
-    border-color: $Pink;
+	background: none;
+	color: $Pink;
+	border-color: $Pink;
 }
 
 .btn-ternary {
-    border-radius: 5px;
-    margin-left: auto;
-    background: $Pink;
-    color: white;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 60%;
+	border-radius: 5px;
+	margin-left: auto;
+	background: $Pink;
+	color: white;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 60%;
 
-    @include medium-and-above {
-        width: 35%;
-    }
+	@include medium-and-above {
+		width: 35%;
+	}
 }
 
 .btn-ternary:hover {
-    background: none;
-    color: $Pink;
-    border-color: $Pink;
+	background: none;
+	color: $Pink;
+	border-color: $Pink;
 }

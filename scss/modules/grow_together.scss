@@ -43,6 +43,10 @@
 	@include medium-and-above {
 		width: 50%;
 	}
+
+	@include extra-large {
+		margin-top: 175px;
+	}
 }
 
 .text {
@@ -81,6 +85,10 @@
 			font-size: 2rem;
 			font-weight: 700;
 		}
+	}
+
+	@include extra-large {
+		margin-top: 175px;
 	}
 }
 
